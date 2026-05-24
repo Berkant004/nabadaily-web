@@ -1,18 +1,13 @@
 import Link from "next/link";
-import Image from "next/image";
 
 export default function Home() {
   return (
     <main className="min-h-screen flex flex-col items-center justify-center px-6">
       <div className="text-center max-w-lg">
         <div className="flex items-center justify-center gap-3 mb-8">
-          <Image
-            src="/app_icon.png"
-            alt="Naba Daily"
-            width={44}
-            height={44}
-            className="rounded-2xl shadow-sm"
-          />
+          <div className="w-10 h-10 rounded-xl flex items-center justify-center" style={{backgroundColor: '#17614D'}}>
+            <span className="text-white font-bold text-lg">N</span>
+          </div>
           <span className="text-2xl font-bold text-gray-900">Naba Daily</span>
         </div>
         <h1 className="text-4xl font-bold text-gray-900 mb-4">

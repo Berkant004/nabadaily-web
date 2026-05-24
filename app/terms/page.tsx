@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -82,13 +81,9 @@ export default function TermsPage() {
       <header className="border-b border-gray-100 bg-white sticky top-0 z-10">
         <div className="max-w-3xl mx-auto px-6 py-4 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
-            <Image
-              src="/app_icon.png"
-              alt="Naba Daily"
-              width={32}
-              height={32}
-              className="rounded-xl"
-            />
+            <div className="w-8 h-8 rounded-lg flex items-center justify-center" style={{ backgroundColor: "#17614D" }}>
+              <span className="text-white font-bold text-sm">N</span>
+            </div>
             <span className="font-semibold text-gray-900">Naba Daily</span>
           </Link>
           <Link href="/privacy" className="text-sm font-medium" style={{ color: "#17614D" }}>
