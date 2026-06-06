@@ -29,6 +29,9 @@ export default function Home() {
           <Link href="/terms" className="hover:text-gray-600 transition-colors">
             Terms of Service
           </Link>
+          <Link href="/delete-account" className="hover:text-gray-600 transition-colors">
+            Delete Account
+          </Link>
         </div>
       </div>
     </main>
