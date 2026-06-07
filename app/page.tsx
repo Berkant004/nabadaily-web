@@ -32,6 +32,9 @@ export default function Home() {
           <Link href="/delete-account" className="hover:text-gray-600 transition-colors">
             Delete Account
           </Link>
+          <Link href="/contact" className="hover:text-gray-600 transition-colors">
+            Contact
+          </Link>
         </div>
       </div>
     </main>
